@@ -15,6 +15,5 @@ export async function load() {
   });
 
   const data = await tokenResponse.json();
-  // return data;
-  const token: string = data.access_token;
+  return data;
 }
